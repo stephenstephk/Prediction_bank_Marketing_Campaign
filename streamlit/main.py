@@ -9,6 +9,7 @@ import conclusion
 import interpretation
 
 
+
 st.markdown("<h1 style='text-align: center; color: #87CEEB; background-color: #EAEAEA; border-radius: 10px; padding: 5px; width: 100%; margin: 0 auto;'>Projet de Prédiction du succès d'une campagne marketing d'une banque</h1>", unsafe_allow_html=True)
 
 st.write(" ")
@@ -16,7 +17,7 @@ st.markdown("<h2 style='text-align: center;'>Avril à Novembre 2023</h2>", unsaf
 st.write(" ")
 st.write(" ")
 st.write(" ")
-st.image("img/bank.jpg", use_column_width=True, caption="Campagne marketing")
+st.image("bank.jpg", use_column_width=True, caption="Campagne marketing")
 
 st.sidebar.markdown("<h1 style='color: #87CEEB; background-color: #EAEAEA; border-radius: 10px; padding: 5px; width: 50%;'>Sommaire</h1>", unsafe_allow_html=True)
 pages = ["**Introduction**", "**Exploration**", "**Visualization**", "**Modélisation**", "**Interpretation**","**Conclusion**"]
